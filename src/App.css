@@ -30,3 +30,9 @@
     transform: rotate(360deg);
   }
 }
+.show{
+  width: 100%;
+}
+#banner{
+  border:10px solid blue;
+}

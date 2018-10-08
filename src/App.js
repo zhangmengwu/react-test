@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import first from "./1.png"
 import './App.css';
+import './common.css';
 
 class App extends Component {
   render() {
@@ -11,14 +13,9 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <h1>hello React!</h1>
+          <p>哈哈哈哈或或或</p>
+            <img id="banner" className="show border" src={first} alt=""/>
         </header>
       </div>
     );
