@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <Child/>
+          {/*<Child/>*/}
           <img src={logo} className="App-logo" alt="logo" />
           <Children/>
           <Test/>
@@ -22,7 +22,7 @@ class App extends Component {
           </p>
           <h1>hello React!</h1>
           <p>哈哈哈哈或或或</p>
-            <img id="banner" className="show border" src={first} alt=""/>
+            {/*<img id="banner" className="show border" src={first} alt=""/>*/}
         </header>
       </div>
     );
